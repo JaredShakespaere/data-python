@@ -33,3 +33,10 @@ vanilla_total = 0
 
 for row in data:
     line = row.split(',')
+    subtotals = (int(line[3]) * float(line[4]))
+if row._contains_("Strawberry"):
+    strawberry_total += subtotals
+if row._contains_("Vanilla"):
+    vanilla_total += subtotals
+if row._contains_("Chocolate"):
+    chocolate_total += subtotals
